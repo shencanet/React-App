@@ -1,0 +1,8 @@
+.Testimonial__container{
+    border: 1px solid;
+    width: 400px;
+    height: 200px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    display: flex;
+}
