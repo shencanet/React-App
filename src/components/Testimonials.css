@@ -6,3 +6,15 @@
     margin-bottom: 30px;
     display: flex;
 }
+
+.Testimonial__photo{
+    width: 100px;
+    border-radius: 50%;
+    
+}
+.Testimonial__name{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 4px;
+    color: #383838;
+}

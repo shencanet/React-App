@@ -5,6 +5,8 @@ function App(){
         <>
         <h2 className='title'>componente App</h2>
         <Testimonial></Testimonial>
+        <Testimonial></Testimonial>
+        <Testimonial></Testimonial>
         </>
     )
 

@@ -1,14 +1,16 @@
-import  './Testimonials.css'
+import  './Testimonials.css';
+import photo1 from '../components/imagenes/profile2.jpg'
 
 function Testimonial() {
   return (
     <div className="Testimonial__container">
       <div>
-      <img src="" alt="" className="Testimonial__photo" />
+      <img 
+      src= {photo1} alt="" className="Testimonial__photo" />
 
       <h2 className="Testimonial__name">Juan Perez</h2>
       </div>
-      
+
       <div className='Testimonial__content'>
       <p className='Testimonial__stars'>⭐⭐⭐⭐⭐</p>
       <p className='Testimonial__text'>
