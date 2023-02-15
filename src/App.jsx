@@ -7,7 +7,7 @@ import photo3 from "./imagenes/profile3.jpg"
 
 function App() {
   return (
-    <Fragment>
+    <div className="main-container">
       <Testimonial
         img={photo1}
         name="Anna Perez"
@@ -35,7 +35,7 @@ function App() {
         nesciunt rem sequi natus debitis cupiditate dolore, necessitatibus
         maxime fuga dolorem repudiandae."
       />
-    </Fragment>
+    </div>
   )
 }
 
