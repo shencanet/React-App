@@ -5,6 +5,9 @@
     border-radius: 12px;
     margin-bottom: 30px;
     display: flex;
+    gap: 24px;
+    align-items: center;
+    padding: 24px;
 }
 
 .Testimonial__photo{
