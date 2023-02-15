@@ -7,14 +7,22 @@ import photo2 from "./imagenes/profile2.jpg"
 import photo3 from "./imagenes/profile3.jpg"
 
 function App() {
-  const [theme, setTheme] = useState('light')
+  const [theme, setTheme] = useState('light');
 
+ function onClickFn(){
+    console.log('boton presionado');
 
+  }
+  
+  
+  
 
   return (
     
     <div className="main-container">
-        <Button/>
+        <Button onClickFn =  {onClickFn}
+        value = 'Dark'
+        />
       <Testimonial
         img={photo1}
         name="Anna Perez"
