@@ -25,7 +25,7 @@ function App() {
     
     <div className={'main-container ' + theme}>
         <Button onClickFn =  {onClickFn}
-        value = 'Dark'
+        value = {theme == 'dark' ? 'light' : 'dark' }
         />
       <Testimonial
         img={photo1}
