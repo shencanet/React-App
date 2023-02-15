@@ -10,7 +10,11 @@ function App() {
   const [theme, setTheme] = useState('light');
 
  function onClickFn(){
-    console.log('boton presionado');
+    if(theme == 'light'){
+        setTheme('dark')
+    }else{
+        setTheme('light')
+    }
 
   }
   
@@ -19,7 +23,7 @@ function App() {
 
   return (
     
-    <div className="main-container">
+    <div className={'main-container ' + theme}>
         <Button onClickFn =  {onClickFn}
         value = 'Dark'
         />
