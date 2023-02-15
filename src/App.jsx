@@ -1,13 +1,20 @@
-import { Fragment } from "react";
+import { useState } from "react";
 import "./App.css";
+import Button from "./components/button"
 import Testimonial from "./components/Testimonials";
 import photo1 from "./imagenes/profile1.jpg"
 import photo2 from "./imagenes/profile2.jpg"
 import photo3 from "./imagenes/profile3.jpg"
 
 function App() {
+  const [theme, setTheme] = useState('light')
+
+
+
   return (
+    
     <div className="main-container">
+        <Button/>
       <Testimonial
         img={photo1}
         name="Anna Perez"
@@ -28,7 +35,7 @@ function App() {
       />
        <Testimonial
         img={photo3}
-        name="Alfonso Perex"
+        name="Alfonso Perez"
         stars="⭐"
         text="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium
         esse, provident assumenda aliquid consequuntur totam, earum veniam quia
